@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+         float a,b,product;
+         printf("Enter two floating numbers :");
+         scanf("%f %f",&a,&b);
+         product=a*b;
+         printf("The product is %.2F",product);
+         return 0;
+}
